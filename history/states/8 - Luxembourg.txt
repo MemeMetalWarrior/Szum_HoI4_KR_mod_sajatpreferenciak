@@ -1,0 +1,36 @@
+state = {
+	id = 8
+	name = "STATE_8"
+	manpower = 343646
+	state_category = seven
+
+	resources = {
+		steel = 75
+		coal = 15
+	}
+
+	history = {
+		owner = GER
+		add_core_of = GER
+		add_to_array = { state_victory_points = 6583 }
+
+		victory_points = { 6583 5 } #Luxembourg
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 2
+			6583 = {
+				nuclear_facility = 1 #Luxemburg Vernichtung-weapon reasearch
+				bunker = 2
+			}
+			13898 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+		6583 13898
+	}
+}
